@@ -1,27 +1,28 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 body {
-    padding: 0px;
-    margin: 50px;
+    padding: 0;
+    margin: 0 auto; /* Removida a margem superior e inferior */
     background: #eaf7ff;
     text-align: justify;
 }
 
-.text-aling{
+.text-align {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.container{
+.container {
     max-width: 800px;
     margin: auto;
     overflow: auto;
     background-color: #ffffff;
     border-radius: 10px;
 }
+
 /*Colunas para computador*/
-.row::after{
+.row::after {
     content: "";
     clear: both;
     display: table;
@@ -53,25 +54,25 @@ body {
     }
 }
 
-.cabecalho{
+.cabecalho {
     text-align: center;
 }
 
 .cabecalho h1, .cabecalho h2 {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .cabecalho img {
     width: 200px;
 }
 
-ul, li{
+ul, li {
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
-.conteudo{
+.conteudo {
     color: #ffffff;
 }
 
@@ -79,30 +80,32 @@ ul, li{
     text-align: right;
 }
 
-.borda{
+.borda {
     border-left: solid 1px #ffffff;
 }
+
 #sobre {
-    background-color: #168aad;
-}
-#experiencias{
-    background-color: #1e6091;
-}
-#cursos{
-    background-color: #1a759f;
+    background-color: #a3c1e0; /* Azul claro para sobre */
 }
 
-#projetos{
-    background-color: #1e6091;
+#experiencias {
+    background-color: #82a8d0; /* Azul médio para experiencias */
 }
 
-#contato{
-    background-color: #184e77;
+#cursos {
+    background-color: #6180c0; /* Azul escuro para cursos */
+}
+
+#projetos {
+    background-color: #4058b0; /* Azul mais escuro para projetos */
+}
+
+#contato {
+    background-color: #1e309f; /* Azul mais escuro para contato */
     color: #ffffff;
-    text-decoration: none;
 }
 
-.conteudo h3{
+.conteudo h3 {
     text-align: left !important;
     margin: 0;
 }
