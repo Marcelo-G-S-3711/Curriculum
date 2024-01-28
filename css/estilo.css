@@ -9,7 +9,7 @@ body {
     text-align: justify;
 }
 
-.text-align {
+.text-align { /* Corrigido o nome da classe */
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
@@ -19,6 +19,13 @@ body {
     overflow: auto;
     background-color: #ffffff;
     border-radius: 10px;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Transição suave para a alteração de cor */
+}
+
+.dark-background {
+    background-color: #333333; /* Fundo escuro */
+    color: #ffffff; /* Cor do texto para o fundo escuro */
 }
 
 /*Colunas para computador*/
@@ -55,19 +62,28 @@ body {
 }
 
 .cabecalho {
-    text-align: center;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
 }
 
-.cabecalho h1, .cabecalho h2 {
+.cabecalho img {
+    width: 100px;
+    height: auto; /* Para manter a proporção da imagem */
+    margin-right: 20px; /* Espaçamento à direita da imagem */
+}
+
+#toggleButton {
+    margin-left: auto; /* Move o botão para a direita */
+}
+
+.cabecalho h1,
+.cabecalho h2 {
     padding: 0;
     margin: 0;
 }
 
-.cabecalho img {
-    width: 200px;
-}
-
-ul, li {
+ul,
+li {
     list-style-type: none;
     padding-left: 0;
 }
@@ -108,18 +124,4 @@ ul, li {
 .conteudo h3 {
     text-align: left !important;
     margin: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background-color: #ffffff; /* Fundo claro padrão */
-    color: #000000; /* Cor do texto para o fundo claro */
-    transition: background-color 0.3s ease; /* Transição suave para a alteração de cor */
-}
-
-.dark-background {
-    background-color: #333333; /* Fundo escuro */
-    color: #ffffff; /* Cor do texto para o fundo escuro */
 }
