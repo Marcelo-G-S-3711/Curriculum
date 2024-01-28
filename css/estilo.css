@@ -85,23 +85,23 @@ ul, li {
 }
 
 #sobre {
-    background-color: #a3c1e0; /* Azul claro para sobre */
+    background-color: #168aad;
 }
 
 #experiencias {
-    background-color: #82a8d0; /* Azul médio para experiencias */
+    background-color: #1e6091;
 }
 
 #cursos {
-    background-color: #6180c0; /* Azul escuro para cursos */
+    background-color: #1a759f;
 }
 
 #projetos {
-    background-color: #4058b0; /* Azul mais escuro para projetos */
+    background-color: #1e6091;
 }
 
 #contato {
-    background-color: #1e309f; /* Azul mais escuro para contato */
+    background-color: #184e77;
     color: #ffffff;
 }
 
@@ -110,11 +110,16 @@ ul, li {
     margin: 0;
 }
 
-a {
-    color: #ffffff; /* Define a cor dos links como branco */
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo claro padrão */
+    color: #000000; /* Cor do texto para o fundo claro */
+    transition: background-color 0.3s ease; /* Transição suave para a alteração de cor */
 }
 
-a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+.dark-background {
+    background-color: #333333; /* Fundo escuro */
+    color: #ffffff; /* Cor do texto para o fundo escuro */
 }
