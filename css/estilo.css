@@ -109,3 +109,12 @@ ul, li {
     text-align: left !important;
     margin: 0;
 }
+
+a {
+    color: #ffffff; /* Define a cor dos links como branco */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
