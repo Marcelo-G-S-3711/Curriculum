@@ -9,7 +9,7 @@ body {
     text-align: justify;
 }
 
-.text-align { /* Corrigido o nome da classe */
+.text-align {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
@@ -19,13 +19,6 @@ body {
     overflow: auto;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 20px;
-    transition: background-color 0.3s ease; /* Transição suave para a alteração de cor */
-}
-
-.dark-background {
-    background-color: #333333; /* Fundo escuro */
-    color: #ffffff; /* Cor do texto para o fundo escuro */
 }
 
 /*Colunas para computador*/
@@ -62,28 +55,19 @@ body {
 }
 
 .cabecalho {
-    display: flex;
-    align-items: center; /* Alinha verticalmente os itens */
+    text-align: center;
 }
 
-.cabecalho img {
-    width: 100px;
-    height: auto; /* Para manter a proporção da imagem */
-    margin-right: 20px; /* Espaçamento à direita da imagem */
-}
-
-#toggleButton {
-    margin-left: auto; /* Move o botão para a direita */
-}
-
-.cabecalho h1,
-.cabecalho h2 {
+.cabecalho h1, .cabecalho h2 {
     padding: 0;
     margin: 0;
 }
 
-ul,
-li {
+.cabecalho img {
+    width: 200px;
+}
+
+ul, li {
     list-style-type: none;
     padding-left: 0;
 }
@@ -101,23 +85,28 @@ li {
 }
 
 #sobre {
-    background-color: #168aad;
+    background: #168aad; /* Fallback para navegadores que não suportam degradê */
+    background: linear-gradient(to bottom, #168aad, #184e77);
 }
 
 #experiencias {
-    background-color: #1e6091;
+    background: #1e6091; /* Fallback para navegadores que não suportam degradê */
+    background: linear-gradient(to bottom, #1e6091, #184e77);
 }
 
 #cursos {
-    background-color: #1a759f;
+    background: #1a759f; /* Fallback para navegadores que não suportam degradê */
+    background: linear-gradient(to bottom, #1a759f, #184e77);
 }
 
 #projetos {
-    background-color: #1e6091;
+    background: #1e6091; /* Fallback para navegadores que não suportam degradê */
+    background: linear-gradient(to bottom, #1e6091, #184e77);
 }
 
 #contato {
-    background-color: #184e77;
+    background: #184e77; /* Fallback para navegadores que não suportam degradê */
+    background: linear-gradient(to bottom, #184e77, #162e4d);
     color: #ffffff;
 }
 
