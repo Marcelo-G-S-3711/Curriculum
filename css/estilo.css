@@ -4,13 +4,10 @@
 
 body {
     padding: 0;
-    margin: 0 auto; /* Removida a margem superior e inferior */
+    margin: 0 auto;
     background: linear-gradient(to bottom, #000000, #333333, #666666, #999999, #CCCCCC);
     text-align: justify;
-}
-
-.text-align {
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Alteração da fonte para Roboto */
 }
 
 .container {
@@ -21,7 +18,6 @@ body {
     border-radius: 10px;
 }
 
-/*Colunas para computador*/
 .row::after {
     content: "";
     clear: both;
@@ -46,7 +42,6 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-/* Configuração para celulares */
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
@@ -56,7 +51,11 @@ body {
 
 .cabecalho {
     text-align: center;
+    color: #fff; /* Cor do texto */
+    background: #168aad; /* Fallback para navegadores que não suportam degradê */
+    background: linear-gradient(to bottom, #168aad, #184e77);
 }
+
 
 .cabecalho h1, .cabecalho h2 {
     padding: 0;
@@ -85,27 +84,27 @@ ul, li {
 }
 
 #sobre {
-    background: #168aad; /* Fallback para navegadores que não suportam degradê */
+    background: #168aad;
     background: linear-gradient(to bottom, #168aad, #184e77);
 }
 
 #experiencias {
-    background: #1e6091; /* Fallback para navegadores que não suportam degradê */
+    background: #1e6091;
     background: linear-gradient(to bottom, #1e6091, #184e77);
 }
 
 #cursos {
-    background: #1a759f; /* Fallback para navegadores que não suportam degradê */
+    background: #1a759f;
     background: linear-gradient(to bottom, #1a759f, #184e77);
 }
 
 #projetos {
-    background: #1e6091; /* Fallback para navegadores que não suportam degradê */
+    background: #1e6091;
     background: linear-gradient(to bottom, #1e6091, #184e77);
 }
 
 #contato {
-    background: #184e77; /* Fallback para navegadores que não suportam degradê */
+    background: #184e77;
     background: linear-gradient(to bottom, #184e77, #162e4d);
     color: #ffffff;
 }
@@ -116,5 +115,10 @@ ul, li {
 }
 
 a {
-    color: #ffffff; /* Define a cor branca para os links */
+    color: #ffffff;
+    text-decoration: none; /* Removendo sublinhado dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adicionando sublinhado ao passar o mouse */
 }
