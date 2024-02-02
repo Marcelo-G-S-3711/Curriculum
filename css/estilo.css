@@ -5,7 +5,7 @@
 body {
     padding: 0;
     margin: 0 auto; /* Removida a margem superior e inferior */
-    background: #eaf7ff;
+    background: linear-gradient(to bottom, #000000, #333333, #666666, #999999, #CCCCCC);
     text-align: justify;
 }
 
