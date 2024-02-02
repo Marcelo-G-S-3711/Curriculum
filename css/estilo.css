@@ -114,3 +114,7 @@ ul, li {
     text-align: left !important;
     margin: 0;
 }
+
+a {
+    color: #ffffff; /* Define a cor branca para os links */
+}
