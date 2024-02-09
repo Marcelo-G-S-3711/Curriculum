@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     background: linear-gradient(to bottom, #000000, #333333, #666666, #999999, #CCCCCC);
     text-align: justify;
-    font-family: 'Roboto', sans-serif; /* Alteração da fonte para Roboto */
+    font-family: 'Montserrat', sans-serif; /* Alteração da fonte para Montserrat */
 }
 
 .container {
@@ -30,7 +30,7 @@ body {
 }
 
 .col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
+.col-2 {width: 25%;}
 .col-3 {width: 25%;}
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
@@ -38,7 +38,7 @@ body {
 .col-7 {width: 58.33%;}
 .col-8 {width: 66.66%;}
 .col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
+.col-10 {width: 75%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
@@ -88,7 +88,9 @@ ul, li {
     background: linear-gradient(to bottom, #168aad, #184e77);
 }
 
+
 #experiencias {
+    
     background: #1e6091;
     background: linear-gradient(to bottom, #1e6091, #184e77);
 }
